@@ -132,9 +132,7 @@ export const HomeController: React.FC = () => {
                 </Text>
             )}
 
-            <View style={{}}>
-                <PrimaryButton text={Strings.next} onPress={handleNextPress} />
-            </View>
+            <PrimaryButton text={Strings.next} onPress={handleNextPress} />
         </View>
     );
 };

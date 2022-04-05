@@ -302,45 +302,41 @@ frustation right now
         />
       </View>
       <View
-        style={Object {}}
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderRadius": 33,
+            "height": 66,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
       >
-        <View
-          accessible={true}
-          collapsable={false}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
+        <Text
           style={
-            Object {
-              "alignItems": "center",
-              "backgroundColor": "#ffffff",
-              "borderRadius": 33,
-              "height": 66,
-              "justifyContent": "center",
-              "opacity": 1,
-            }
+            Array [
+              Object {
+                "color": "#004053",
+                "fontSize": 22.5,
+                "fontWeight": "bold",
+              },
+              undefined,
+            ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {
-                  "color": "#004053",
-                  "fontSize": 22.5,
-                  "fontWeight": "bold",
-                },
-                undefined,
-              ]
-            }
-          >
-            Next
-          </Text>
-        </View>
+          Next
+        </Text>
       </View>
     </View>
   </RCTSafeAreaView>
