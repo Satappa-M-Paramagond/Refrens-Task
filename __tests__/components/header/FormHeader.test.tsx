@@ -22,7 +22,7 @@ describe('FormHeader => Snapshots => ', () => {
     });
 });
 
-describe('PrimaryButton => Enzyme => ', () => {
+describe('FormHeader => Enzyme => ', () => {
     test.each`
         testID          | expectedIndex
         ${TestIDs.bar1} | ${0}

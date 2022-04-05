@@ -31,6 +31,7 @@ exports[`App => Snapshots =>  should render properly 1`] = `
           }
         >
           <View
+            accessibilityLabel="bar1"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -50,8 +51,10 @@ exports[`App => Snapshots =>  should render properly 1`] = `
                 "width": 120,
               }
             }
+            testID="bar1"
           />
           <View
+            accessibilityLabel="bar2"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -71,8 +74,10 @@ exports[`App => Snapshots =>  should render properly 1`] = `
                 "width": 120,
               }
             }
+            testID="bar2"
           />
           <View
+            accessibilityLabel="bar3"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -92,8 +97,10 @@ exports[`App => Snapshots =>  should render properly 1`] = `
                 "width": 120,
               }
             }
+            testID="bar3"
           />
           <View
+            accessibilityLabel="bar4"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -113,8 +120,10 @@ exports[`App => Snapshots =>  should render properly 1`] = `
                 "width": 120,
               }
             }
+            testID="bar4"
           />
           <View
+            accessibilityLabel="bar5"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -134,6 +143,7 @@ exports[`App => Snapshots =>  should render properly 1`] = `
                 "width": 120,
               }
             }
+            testID="bar5"
           />
         </View>
         <View
@@ -302,6 +312,7 @@ frustation right now
         />
       </View>
       <View
+        accessibilityLabel="primaryButton"
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -322,6 +333,7 @@ frustation right now
             "opacity": 1,
           }
         }
+        testID="primaryButton"
       >
         <Text
           style={
