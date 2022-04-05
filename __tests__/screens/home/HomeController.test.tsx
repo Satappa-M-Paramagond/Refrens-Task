@@ -1,11 +1,11 @@
 import 'react-native';
 import React from 'react';
-import App from '../App';
 import { render } from '@testing-library/react-native';
+import { HomeController } from '../../../src/screens';
 
-describe('App => Snapshots => ', () => {
+describe('HomeController => Snapshots => ', () => {
     test('should render properly', () => {
-        const { toJSON } = render(<App />);
+        const { toJSON } = render(<HomeController />);
         expect(toJSON()).toMatchSnapshot();
         expect.assertions(1);
     });
