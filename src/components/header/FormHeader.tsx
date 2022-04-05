@@ -8,7 +8,7 @@ import {
     Dimensions,
     TouchableOpacity
 } from 'react-native';
-import { Colors, Scale, Strings } from '../../constants';
+import { Colors, Scale, Strings, TestIDs } from '../../constants';
 import IonIcons from 'react-native-vector-icons/Ionicons';
 const { width } = Dimensions.get('screen');
 
@@ -31,6 +31,8 @@ export const FormHeader: React.FC<Props> = props => {
                     { width: barWidth },
                     activePhase >= index && styles.activeBar
                 ]}
+                testID={`bar${index + 1}`}
+                accessibilityLabel={`bar${index + 1}`}
                 onPress={() => onPress(index)}
             />
         );

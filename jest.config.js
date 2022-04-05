@@ -6,5 +6,6 @@ module.exports = {
         'node_modules/(?!(@react-native|react-native|react-native-vector-icons)/)'
     ],
     preset: 'react-native',
-    moduleDirectories: ['node_modules']
+    moduleDirectories: ['node_modules'],
+    setupFiles: ['./jest/setup.ts']
 };

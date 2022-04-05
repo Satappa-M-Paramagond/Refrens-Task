@@ -6,7 +6,7 @@ import {
     Text,
     ViewStyle
 } from 'react-native';
-import { Colors, Scale } from '../../constants';
+import { Colors, Scale, TestIDs } from '../../constants';
 
 type Props = {
     text: string;
@@ -21,7 +21,9 @@ export const PrimaryButton: React.FC<Props> = props => {
     return (
         <TouchableOpacity
             style={[styles.buttonContainer, style]}
-            onPress={onPress}>
+            onPress={onPress}
+            testID={TestIDs.primaryButton}
+            accessibilityLabel={TestIDs.primaryButton}>
             <Text style={[styles.buttonText, textStyle]}>{text}</Text>
         </TouchableOpacity>
     );

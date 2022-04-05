@@ -2,6 +2,7 @@
 
 exports[`PrimaryButton => Snapshots =>  should render properly with props 1`] = `
 <View
+  accessibilityLabel="primaryButton"
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -22,6 +23,7 @@ exports[`PrimaryButton => Snapshots =>  should render properly with props 1`] = 
       "opacity": 1,
     }
   }
+  testID="primaryButton"
 >
   <Text
     style={
@@ -42,6 +44,7 @@ exports[`PrimaryButton => Snapshots =>  should render properly with props 1`] = 
 
 exports[`PrimaryButton => Snapshots =>  should render properly without props 1`] = `
 <View
+  accessibilityLabel="primaryButton"
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -62,6 +65,7 @@ exports[`PrimaryButton => Snapshots =>  should render properly without props 1`]
       "opacity": 1,
     }
   }
+  testID="primaryButton"
 >
   <Text
     style={

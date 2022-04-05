@@ -291,6 +291,7 @@ frustation right now
     />
   </View>
   <View
+    accessibilityLabel="primaryButton"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -311,6 +312,7 @@ frustation right now
         "opacity": 1,
       }
     }
+    testID="primaryButton"
   >
     <Text
       style={
