@@ -5,6 +5,7 @@ module.exports = {
     transformIgnorePatterns: [
         'node_modules/(?!(@react-native|react-native|react-native-vector-icons)/)'
     ],
+    testEnvironment: 'jsdom',
     preset: 'react-native',
     moduleDirectories: ['node_modules'],
     setupFiles: ['./jest/setup.ts']

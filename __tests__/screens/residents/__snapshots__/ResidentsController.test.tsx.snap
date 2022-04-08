@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResidentsController => Snapshots =>  should render empty view properly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+      Object {},
+    ]
+  }
+>
+  <ActivityIndicator
+    color="darkgrey"
+    size="large"
+  />
+</View>
+`;
+
+exports[`ResidentsController => Snapshots =>  should render list view properly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+      Object {},
+    ]
+  }
+>
+  <ActivityIndicator
+    color="darkgrey"
+    size="large"
+  />
+</View>
+`;
+
+exports[`ResidentsController => Snapshots =>  should render loading view properly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+      Object {},
+    ]
+  }
+>
+  <ActivityIndicator
+    color="darkgrey"
+    size="large"
+  />
+</View>
+`;

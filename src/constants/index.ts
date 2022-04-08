@@ -1,4 +1,5 @@
 export { Colors } from './Colors';
-export { Constants, TestIDs } from './Constants';
+export { GetIDFromURL, TestIDs } from './Constants';
 export { Scale } from './Scale';
+export { Screens } from './Screens';
 export { Strings } from './Strings';

@@ -1,0 +1,1 @@
+export { ResidentsController } from './ResidentsController';

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfileCard => Snapshots =>  should render properly with props 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderRadius": 15,
+      "elevation": 4,
+      "flex": 1,
+      "marginHorizontal": 30,
+      "marginVertical": 12,
+      "padding": 18,
+      "shadowColor": "lightgrey",
+      "shadowOffset": Object {
+        "height": 3,
+        "width": 3,
+      },
+      "shadowOpacity": 1,
+    }
+  }
+>
+  <View
+    accessibilityLabel="profileCard"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="profileCard"
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "borderRadius": 15,
+            "height": 99,
+            "width": 99,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexShrink": 1,
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#233f78",
+              "fontSize": 24,
+              "fontWeight": "600",
+              "marginBottom": 3,
+              "textAlign": "left",
+            }
+          }
+        >
+          Rick Sanchez
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 18,
+            }
+          }
+        >
+          Gender : Male
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 18,
+            }
+          }
+        >
+          Species : Human
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 18,
+            }
+          }
+        >
+          Status : Alive
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

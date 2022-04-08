@@ -1,2 +1,4 @@
-export { FormHeader } from './header';
-export { PrimaryButton } from './buttons';
+export { FormatText } from './FormatText';
+export { Loader } from './Loader';
+export { PrimaryButton } from './PrimaryButton';
+export { UserProfileCard } from './UserProfileCard';

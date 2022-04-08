@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormatText => Snapshots =>  should render properly with props 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#000000",
+      "fontSize": 18,
+    }
+  }
+>
+  Gender : Male
+</Text>
+`;
+
+exports[`FormatText => Snapshots =>  should render properly without props 1`] = `null`;
